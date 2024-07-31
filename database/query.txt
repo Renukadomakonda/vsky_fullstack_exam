@@ -1,1 +1,5 @@
 Write your query here:
+SELECT name , rating FROM restaurants
+WHERE rating IS NOT NULL
+ORDER BY rating DESC
+LIMIT 5;
